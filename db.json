@@ -1,0 +1,172 @@
+{
+  "budgetLine": [
+    {
+      "id": 1,
+      "createdAt": "07/05/2024",
+      "updatedAt": "07/05/2024",
+      "amount": 12000,
+      "amount1": 12000,
+      "amount2": 12000,
+      "amount3": 12000,
+      "isApproved": true,
+      "accountId": 1,
+      "unitId": 1
+    }
+  ],
+  "bugets": [
+    {
+      "id": 1,
+      "createdAt": "07/05/2024",
+      "updatedAt": "07/05/2024",
+      "goals": "Desc",
+      "preparationStartDate": "07/05/2024",
+      "preparationEndDate": "07/05/2024",
+      "decisionEndDate": "07/05/2024",
+      "startDate": "07/05/2024",
+      "endDate": "07/05/2024",
+      "status": "CREARED",
+      "Lines":[
+        {
+          "id": 1,
+          "createdAt": "07/05/2024",
+          "updatedAt": "07/05/2024",
+          "amount": 12000,
+          "amount1": 12000,
+          "amount2": 12000,
+          "amount3": 12000,
+          "isApproved": true,
+          "accountId": 1,
+          "unitId": 1
+        }
+      ]
+    }
+  ],
+  "unit":[
+    {
+      "id":1,
+      "name":"Littoral 1",
+      "type": "Segment",
+      "distribution": 20,
+      "description": " Desc"
+    },
+    {
+      "id":2,
+      "name":"BONANJO",
+      "type": "SECTION",
+      "distribution": 20,
+      "description": " Desc",
+      "parentUnitId": 1
+    },
+    {
+      "id":3,
+      "name":"MARCHE CENTRAL",
+      "type": "SECTION",
+      "distribution": 20,
+      "description": " Desc",
+      "parentUnitId": 1
+    },
+    {
+      "id":4,
+      "name":"AKWA",
+      "type": "SECTION",
+      "distribution": 20,
+      "description": " Desc",
+      "parentUnitId": 1
+    },
+    {
+      "id":5,
+      "name":"MARCHE CONGO",
+      "type": "SECTION",
+      "distribution": 20,
+      "description": " Desc",
+      "parentUnitId": 1
+    },
+    {
+      "id":6,
+      "name":"LIBERTE",
+      "type": "SECTION",
+      "distribution": 20,
+      "description": " Desc",
+      "parentUnitId": 1
+    },
+    {
+      "id":7,
+      "name":"KRIBI",
+      "type": "SECTION",
+      "distribution": 20,
+      "description": " Desc",
+      "parentUnitId": 1
+    },
+
+
+    {
+      "id":8,
+      "name":"Centre 1",
+      "type": "Segment",
+      "distribution": 20,
+      "description": " Desc"
+    },
+    {
+      "id":9,
+      "name":"ETOUDI",
+      "type": "SECTION",
+      "distribution": 20,
+      "description": " Desc",
+      "parentUnitId": 1
+    },
+    {
+      "id":10,
+      "name":"BAFIA",
+      "type": "SECTION",
+      "distribution": 20,
+      "description": " Desc",
+      "parentUnitId": 1
+    },
+    {
+      "id":11,
+      "name":"MIMBOMAN",
+      "type": "SECTION",
+      "distribution": 20,
+      "description": " Desc",
+      "parentUnitId": 1
+    },
+    {
+      "id":12,
+      "name":"MESSASSI",
+      "type": "SECTION",
+      "distribution": 20,
+      "description": " Desc",
+      "parentUnitId": 1
+    }
+    
+  ],
+  "section":[
+    {
+      "id":1,
+      "name": "Charges sur opérations bancaires",
+      "sectionType": "LOST",
+      "accounts": [
+        {
+          "id":1,
+          "code":"60110000000",
+          "label": "INT OPERS INTERBANCAIRE",
+          "description": "Desc"
+        }
+      ]
+    }
+  ],
+  "account":[
+    {
+      "id":1,
+      "code":"60110000000",
+      "label": "INT OPERS INTERBANCAIRE",
+      "description": "Desc",
+      "section": {
+        "id":1,
+        "name": "Charges sur opérations bancaires",
+        "sectionType": "LOST"
+      }
+    }
+  ]
+}
+

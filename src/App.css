@@ -1,0 +1,63 @@
+/* main.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Style pour le tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Style pour les cellules d'en-tête */
+th {
+    background-color: #f2f2f2;
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style pour les cellules de données */
+td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style pour les lignes impaires */
+tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+/* Style pour les lignes au survol de la souris */
+tr:hover {
+    /* background-color: #f2f2f2; */
+}
+
+/* Style pour les cellules avec colspan */
+th[colspan] {
+    background-color: #e0e0e0;
+}
+th.ville {
+    background-color: green;
+    color: white; 
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th.region {
+    background-color: white;
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th.rubrique {
+    background-color: purple;
+    color: white; 
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
